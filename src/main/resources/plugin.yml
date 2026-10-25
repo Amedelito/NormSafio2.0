@@ -1,0 +1,14 @@
+name: Normsafio
+version: '${project.version}'
+main: es.normsafio.Normsafio
+api-version: '1.21'
+description: Bloques 3D, bosses, kart, armaduras y mas para el Normsafio.
+authors: [Normsafio]
+commands:
+  norsafio:
+    description: Comando de administracion de Normsafio
+    aliases: [normsafio, nor, dedsafio]
+permissions:
+  norsafio.admin:
+    description: Administracion del plugin
+    default: op

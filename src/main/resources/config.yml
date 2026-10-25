@@ -1,0 +1,24 @@
+# Resource pack (sube Normsafio-ResourcePack.zip a un hosting directo y pon la URL)
+resource-pack:
+  url: ""
+  sha1: ""
+  force: false
+
+hud:
+  actionbar: true     # muestra el saldo de deditas al llevar un objeto de Normsafio en la mano
+
+reto:
+  spoon-consumes: true  # la Cuchara de Resurreccion se gasta al revivir a alguien
+
+# Tienda (maquina expendedora): id_objeto: precio en deditas
+shop:
+  spoon: 30
+  kart: 40
+  dia_helmet: 25
+  dia_chest: 40
+  dia_legs: 35
+  dia_boots: 20
+  net_helmet: 60
+  net_chest: 90
+  net_legs: 80
+  net_boots: 50
